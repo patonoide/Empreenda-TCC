@@ -5,9 +5,11 @@ Contato: patonoideoriginal@gmail.com
 
 Meu site: https://sites.google.com/view/gabrielporto
 
-Este È o meu TCC Empreenda para o curso de TÈcnico em Inform·tica no IFSUL Campus - BagÈ
+Este √© o meu TCC Empreenda para o curso de T√©cnico em Inform√°tica no IFSUL Campus - Bag√©
 
-Nesta vers„o utilizei o MDL(Material Design Light), com o template Android : https://getmdl.io/templates/android-dot-com/index.html . Fiz modificaÁıes em ambos incluindo cores e animaÁıes.
+Para a criptografia utilizei c√≥digo deste site como base: https://www.mkyong.com/java/java-sha-hashing-example/
+
+Nesta vers√£o utilizei o MDL(Material Design Light), com o template Android : https://getmdl.io/templates/android-dot-com/index.html . Fiz modifica√ß√µes em ambos incluindo cores e anima√ß√µes.
 
 O banco utilizado foi o PostGreSQL.
-*Este È o projeto direto do NetBeans*
+*Este √© o projeto direto do NetBeans*
