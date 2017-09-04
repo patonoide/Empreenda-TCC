@@ -1,6 +1,7 @@
 
+<%@page import="criptografia.Criptografia"%>
 <%    
-
+Criptografia c = new Criptografia();
  if(request.getParameter("sair")!=null)
  {
    
@@ -15,7 +16,7 @@ if(request.getParameter("txtLogin")!=null &&
     msg = "Tentou fazer o login";
     String login = request.getParameter("txtLogin").toString();
     String senha = request.getParameter("txtSenha").toString();
-    if(login.equals("adm") && senha.equals("123") )
+    if(login.equals("administrador") && c.cripto(senha+c.cripto(c.cripto(senha))).equals("e59810731c817baffea1cdbffd49c549d623051a826913de47b2bce90be45e27") )
     {
         
         session.setAttribute("usuarioAdmin", login);
@@ -37,8 +38,7 @@ if(request.getParameter("txtLogin")!=null &&
 
 
 <!doctype html>
- <script src="../mdl/jquery-2.1.4.min.js"></script>
-        <script src="../mdl/material.min.js"></script>
+ 
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
@@ -102,4 +102,6 @@ if(request.getParameter("txtLogin")!=null &&
     </div>
 
 </section>
+            <script src="../mdl/jquery-2.1.4.min.js"></script>
+        <script src="../mdl/material.min.js"></script>
 

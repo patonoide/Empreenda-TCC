@@ -62,7 +62,7 @@
                     <a href="franquiador_listar.jsp" class="mdl-layout__tab">Franquiador</a>
                     <a href="franquia_listar.jsp" class="mdl-layout__tab">Franquia</a>
                     <a href="empreendedor_listar.jsp" class="mdl-layout__tab">Empreendedor</a>
-
+                     <a href="sugestao_listar.jsp" class="mdl-layout__tab">Sugestão</a>
                 </div>
             </header>
             <main class="mdl-layout__content">

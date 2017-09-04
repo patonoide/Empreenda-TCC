@@ -25,22 +25,11 @@
                  <span class="mdl-textfield__error">Digite seu Nome</span>
             </div>
         </div>
+      
         <div class="mdl-cell--12-col"> 
             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" required  name="txtNome" />
-                <label class="mdl-textfield__label" for="txtNome">Nome</label>
-            </div>
-        </div>
-        <div class="mdl-cell--12-col"> 
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <input class="mdl-textfield__input" type="text" required  name="txtSenha" />
-                <label class="mdl-textfield__label" for="txtSenha">Senha</label>
-            </div>
-        </div>
-        <div class="mdl-cell--12-col"> 
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                <textarea class="mdl-textfield__input" type="text" rows= "5"   name="txtSugestao" ></textarea>
-                <label class="mdl-textfield__label" for="txtSugestao">Sugestao</label>
+                <textarea class="mdl-textfield__input" type="text" rows= "5" required  name="txtSugestao" ></textarea>
+                <label class="mdl-textfield__label" for="txtSugestao">Sugestão</label>
             </div>
         </div>
 

@@ -7,7 +7,7 @@ import javax.persistence.metamodel.StaticMetamodel;
 import modelo.Categoria;
 import modelo.Franquiador;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2017-08-01T09:37:38")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2017-09-03T23:57:15")
 @StaticMetamodel(Franquia.class)
 public class Franquia_ { 
 

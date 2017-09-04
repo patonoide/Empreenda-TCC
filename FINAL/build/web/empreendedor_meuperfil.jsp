@@ -22,9 +22,10 @@
 <%@include file="cabecalho_empreendedor.jsp"%>
 
 <div class="content-perfil">
-   
+
     <div class="mdl-grid">
-        <div class="mdl-cell--12-col">
+        <div class="mdl-cell--2-col-desktop"></div>
+        <div class="mdl-cell--8-col-desktop mdl-cell--4-col-phone ">
             <section class="mdl-card mdl-shadow--6dp card-perfil-franquiador">
 
                 <div class="mdl-card__supporting-text">
@@ -52,7 +53,8 @@
 
             </section>
 
-        </div>             
+        </div>       
+        <div class="mdl-cell--2-col-desktop"></div>
     </div>
 </div>
 <br>

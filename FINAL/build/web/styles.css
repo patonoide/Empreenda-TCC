@@ -15,12 +15,10 @@
  */
 
 
-body {
-    .content-login {
+
+  .content-login {
         width: 600px;
         margin: 0 auto;
-    }
-   
     }
     .mdl-shadow--2dp {
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
@@ -116,7 +114,7 @@ a img{
 }
 
 .android-header .material-icons {
-    color: #ffffff !important;
+    color: #00000 !important;
 }
 
 .android-header .mdl-layout__drawer-button {
@@ -481,7 +479,10 @@ a img{
 .android-footer a:hover {
     color: #8bc34a;
 }
-
+.info{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
 .android-footer .mdl-mega-footer--top-section::after {
     border-bottom: none;
 }
@@ -589,6 +590,7 @@ a img{
         font-family: 'Roboto', 'Helvetica', sans-serif;
         margin: 0;
         padding: 0;
+        
     }
     .mdl-demo .mdl-layout__header-row {
         padding-left: 40px;
@@ -639,6 +641,7 @@ a img{
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
+        width: 80%;
     }
     .mdl-demo .mdl-card > * {
         height: auto;
@@ -966,9 +969,6 @@ a img{
     }
 }
 
-.card-perfil-franquiador{
-    width:auto;
-}
 .card-perfil-imagem{
     width:800px;
 }

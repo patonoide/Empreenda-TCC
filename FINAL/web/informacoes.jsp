@@ -9,7 +9,7 @@
 <%@include file="cabecalho.jsp"%>
 <style>
     .demo-card-wide.mdl-card {
-        width: 800px;
+        width: 700px;
     }
     .demo-card-wide > .mdl-card__title {
         color: #fff;
@@ -24,20 +24,21 @@
 
 
 
-
-<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+<div class="info">
+<div class="demo-card-wide mdl-card mdl-shadow--2dp ">
     <div class="mdl-card__title">
 
     </div>
     <div class="mdl-card__supporting-text">
         Junte-se agora a maior rede de empreendedores e franquiadores do brasil.
     </div>
-    <div class="mdl-card__actions mdl-card--border">
+    <div class="mdl-card__actions mdl-card--border ">
         <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect " href="cadastrar.jsp">
             Junte-se
         </a>
     </div>
 
+</div>
 </div>
 <br>
 <br>

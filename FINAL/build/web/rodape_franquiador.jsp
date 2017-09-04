@@ -4,8 +4,8 @@
     Author     : paton
 --%>
 
-</main>
 
+<div class="mdl-layout-spacer"></div>
 <footer class="  android-footer mdl-mega-footer mdl-shadow--2dp-top " >
 
     <div class="mdl-mega-footer--top-section ">
@@ -36,8 +36,8 @@
 </footer>
   <script src="mdl/material.min.js"></script>
 <script src="mdl/jquery-2.1.4.min.js"></script>
-<script src="mdl/getmdl-select.min.js"></script>
-<script src="mdl/upload.js"></script>
+</main>
+</div>
 </body>
 </html>
 
