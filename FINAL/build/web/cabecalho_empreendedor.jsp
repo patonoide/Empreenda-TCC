@@ -7,6 +7,7 @@
 <html lang="pt">
     <head>
         <meta charset="ansi">
+        <link rel="icon" href="mdl/fav.png">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -92,7 +93,7 @@
             }
             .mdl-layout__content {
                 display: block;
-                 display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column;
+                display: -webkit-flex; display: flex; -webkit-flex-direction: column; flex-direction: column;
             }
             .content-login {
                 width: 600px;
@@ -121,7 +122,7 @@
                                 <i class="material-icons">undo</i>
                             </button></a></div>
                     <span class=" p20 android-title mdl-layout-title">
-                        <img class="android-logo-image" src="mdl/empreenda.jpg">
+                        <img class="android-logo-image" src="mdl/empreenda.png">
                     </span>
                     <!-- Add spacer, to align navigation to the right in desktop -->
                     <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -152,6 +153,10 @@
                             <a class="mdl-navigation__link mdl-typography--text-uppercase" href="sugestao.jsp">Sugestão</a>
                         </nav>
                     </div>
+                    <span class=" p20 android-mobile-title mdl-layout-title">
+
+                        <img class="android-logo-image" src="mdl/empreenda.png">
+                    </span>
 
 
                 </div>

@@ -1,5 +1,6 @@
-<html lang="pt">
+<html lang="pt" class="mdl-js">
     <head>
+        <link rel="icon" type="image/png" href="mdl/fav.png">
         <meta charset="ansi">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="Empreenda, um site para empreendedores.">
@@ -92,11 +93,13 @@
                 margin: 0 auto;
             }
             .content-perfil{
-                width: 100%;
+                width: 90%;
                 margin: 0 auto;
+                padding-top: 20px !important;
+                padding-bottom:20px !important;
             }
         </style>
-<script src="mdl/jquery-2.1.4.min.js"></script>
+        <script src="mdl/jquery-2.1.4.min.js"></script>
     </head>
     <body >
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
@@ -104,12 +107,12 @@
             <header class="android-header mdl-layout__header mdl-layout__header--waterfall mdl-shadow--2dp">
 
                 <div class="mdl-layout__header-row">
-                    <a href="javascript:history.go(-1)"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+                    <a href="javascript:history.go(-1)"><button class="  mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
                             <i class="material-icons">undo</i>
                         </button></a>
                     <span class=" p20 android-title mdl-layout-title">
 
-                        <img class="android-logo-image" src="mdl/empreenda.jpg">
+                        <img class="android-logo-image" src="mdl/empreenda.png">
                     </span>
                     <!-- Add spacer, to align navigation to the right in desktop -->
                     <div class="android-header-spacer mdl-layout-spacer">    </div>
@@ -127,7 +130,10 @@
                             <%int testelogin = 0;%>
                         </nav>
                     </div>
+                    <span class=" p20 android-mobile-title mdl-layout-title">
 
+                        <img class="android-logo-image" src="mdl/empreenda.png">
+                    </span>
 
                 </div>
             </header>
@@ -142,7 +148,7 @@
                     <a class="mdl-navigation__link " href="informacoes.jsp">Menu</a>
                     <a class="mdl-navigation__link " href="franquia_lista.jsp">Franquia</a>
                     <a class="mdl-navigation__link " href="index.jsp">Index</a>
-
+                    <a class="mdl-navigation__link " href="sugestao.jsp">Sugestão</a>
                 </nav>
             </div>
 

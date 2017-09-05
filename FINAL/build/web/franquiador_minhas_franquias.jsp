@@ -17,45 +17,46 @@
     List<Franquia> lista;
     lista = dao.listarPorFranquiador(cnpj);
     int cont = 0;
-    
+
     DecimalFormat df = new DecimalFormat("###.#");
 %>
 
-<%  if (lista.isEmpty()== false) {
+<%  if (lista.isEmpty() == false) {
         for (Franquia item : lista) {
 
             cont++;
 %>
-<div class="content-super-cadastrar">
+<div class="pb"></div>
+<div class="content-super-cadastrar padding">
 
-    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--6dp card-perfil-imagem">
-        <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-            
-            <div class="mdl-card__supporting-text mdl-grid">
-                <div class="mdl-cell--6-col imagem-cima"><%if(item.getFoto()!=null){%><img src="arquivos/<%=item.getFoto()%>" alt="SEM IMAGEM" height="256" width="256"/><%}else{ %>
+    <section class="section--center  mdl-grid  mdl-shadow--6dp card-perfil-imagem">
+        <div class="mdl-cell--12-col-desktop mdl-cell--4-col-phone mdl-card mdl-cell--6-col-tablet">
+
+            <div class="mdl-card__supporting-text mdl-grid ">
+                <div class="mdl-cell--6-col-desktop mdl-cell--4-col-phone imagem-cima"><%if (item.getFoto() != null) {%><img src="arquivos/<%=item.getFoto()%>" alt="SEM IMAGEM" height="256" width="256"/><%} else { %>
                     <img src="arquivos/anvil.png" alt="SEM IMAGEM" height="256" width="256"/>
-                <%}%>
+                    <%}%>
                 </div>
-                     <div class="mdl-cell--6-col">
-                <h4>Nome: <%=item.getNome()%></h4>
+                <div class="mdl-cell--6-col mdl-cell--4-col-phone">
+                    <h4>Nome: <%=item.getNome()%></h4>
 
-                <h6>Categoria: <%=item.getCategoriaListArrumado()%></h6>
+                    <h6>Categoria: <%=item.getCategoriaListArrumado()%></h6>
 
-                <h6>Valor inicial: R$ <%=df.format(item.getValorinicial())%></h6>
-                <h6>Capital de Giro: R$ <%=item.getCapital()%></h6>
-                <h6>Tempo até lucro(em meses): <%=item.getTempolucro()%></h6>
-                <h6>Valor total: R$ <%=df.format(item.getValortotal())%></h6>
-                     </div>
+                    <h6>Valor inicial: R$ <%=df.format(item.getValorinicial())%></h6>
+                    <h6>Capital de Giro: R$ <%=item.getCapital()%></h6>
+                    <h6>Tempo até lucro(em meses): <%=item.getTempolucro()%></h6>
+                    <h6>Valor total: R$ <%=df.format(item.getValortotal())%></h6>
+                </div>
                 <div class="mdl-card__menu">Opções
                     <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="<%=cont%>">
                         <i class="material-icons">monetization_on</i>
                     </button>
                     <ul class="mdl-menu mdl-js-menu mdl-menu--upper-right " for="<%=cont%>">
-                       
+
                         <li class="mdl-menu__item"><a href="franquia_contato.jsp?id=<%=item.getIdfranquia()%>">Mais informações</a></li>
-                         <li class="mdl-menu__item"><a href="franquia_imagem.jsp?id=<%=item.getIdfranquia()%>">Modificar Imagem</a></li>
-                          <li class="mdl-menu__item"><a href="franquia_atualizar.jsp?id=<%=item.getIdfranquia()%>">Atualizar</a></li>
-                          <li class="mdl-menu__item"><a href="franquia_excluir_ok.jsp?id=<%=item.getIdfranquia()%>">Excluir franquia</a></li>
+                        <li class="mdl-menu__item"><a href="franquia_imagem.jsp?id=<%=item.getIdfranquia()%>">Modificar Imagem</a></li>
+                        <li class="mdl-menu__item"><a href="franquia_atualizar.jsp?id=<%=item.getIdfranquia()%>">Atualizar</a></li>
+                        <li class="mdl-menu__item"><a href="franquia_excluir_ok.jsp?id=<%=item.getIdfranquia()%>">Excluir franquia</a></li>
                     </ul>
 
                 </div>

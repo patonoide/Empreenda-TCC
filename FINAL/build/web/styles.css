@@ -15,6 +15,10 @@
  */
 
 
+.pb{
+    padding-bottom: 10px;
+}
+
 
   .content-login {
         width: 600px;
@@ -84,12 +88,19 @@ a img{
     background: #64ffda !important;
     color: black !important;
 }
-
+.padding{
+    
+    padding-bottom:20px;
+}
+ .content-super-cadastrar{
+        width: 100%;
+        margin: 0 auto;
+    }
 .android-mobile-title {
     display: none !important;
 }
 .content-login {
-    width: 600px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -968,9 +979,13 @@ a img{
         bottom: 0;
     }
 }
-
+.contato{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
 .card-perfil-imagem{
-    width:800px;
+    width:90%;
+   max-width: 744px;
 }
 .card-perfil-imagem .mdl-menu__container {
     left: auto !important;

@@ -7,11 +7,7 @@
     List<Categoria> gLista = gDAO.listar();
     String desc = "";
 %>
-<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button" style="display:none;">Show Snackbar</button>
-<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
-    <div class="mdl-snackbar__text"></div>
-    <button class="mdl-snackbar__action" type="button"></button>
-</div>
+
 
 <div class="content-login" >
     <form action="empreendedor_cadastrar_ok.jsp" method="post">
@@ -74,6 +70,11 @@
             Adicionar
         </button>
     </form>
+</div>
+<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button" style="display:none;">Show Snackbar</button>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
 </div>
 <script>
     (function () {

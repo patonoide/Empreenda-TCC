@@ -53,17 +53,17 @@
 
         cont++;
 %>
-<div class="content-super-cadastrar">
+<div class="content-super-cadastrar padding">
 
-    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--6dp card-perfil-imagem">
-        <div class="mdl-card mdl-cell mdl-cell--12-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+    <section class="section--center  mdl-grid  mdl-shadow--6dp card-perfil-imagem">
+        <div class="mdl-cell--12-col-desktop mdl-cell--4-col-phone mdl-card mdl-cell--6-col-tablet">
             
             <div class="mdl-card__supporting-text mdl-grid ">
-                <div class="mdl-cell--6-col imagem-cima"><%if(item.getFoto()!=null){%><img src="arquivos/<%=item.getFoto()%>" alt="SEM IMAGEM" height="256" width="256"/><%}else{ %>
+                <div class="mdl-cell--6-col-desktop mdl-cell--4-col-phone imagem-cima"><%if(item.getFoto()!=null){%><img src="arquivos/<%=item.getFoto()%>" alt="SEM IMAGEM" height="256" width="256"/><%}else{ %>
                     <img src="arquivos/anvil.png" alt="SEM IMAGEM" height="256" width="256"/>
                 <%}%>
                     </div>
-                     <div class="mdl-cell--6-col">
+                     <div class="mdl-cell--6-col mdl-cell--4-col-phone">
                 <h4>Nome: <%=item.getNome()%></h4>
 
                 <h6>Categoria: <%=item.getCategoriaListArrumado()%></h6>
@@ -88,6 +88,7 @@
                 </div>
             </div>
         </div>
+                    
     </section>
 </div>
 <br>

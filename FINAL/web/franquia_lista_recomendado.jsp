@@ -24,10 +24,7 @@
         font-size: 14px;
         font-weight: 500;
     }
-    .content-super-cadastrar{
-        width: 900px;
-        margin: 0 auto;
-    }
+   
 </style>
 <div class="content-super-cadastrar" >
     <div class="mdl-grid">
