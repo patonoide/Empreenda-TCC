@@ -11,6 +11,8 @@ Para a criptografia utilizei código deste site como base: https://www.mkyong.co
 
 Nesta versão utilizei o MDL(Material Design Light), com o template Android : https://getmdl.io/templates/android-dot-com/index.html . Fiz modificações em ambos incluindo cores e animações.
 
+Vídeo de introdução ao Empreenda: https://youtu.be/S1BDgXaVel0
+
 O banco utilizado foi o PostGreSQL.
 *Este é o projeto direto do NetBeans*
 
